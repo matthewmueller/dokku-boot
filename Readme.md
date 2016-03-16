@@ -9,7 +9,7 @@ Quick personal configuration for setting up a fresh Dokku build. I've only tried
 - Adds the Let's Encrypt plugin
 - Adds the Postgres plugin
 
-## Up and Running with Dokku in 5 minutes
+## Up & Running with Dokku in 5 minutes
 
 #### Setting up Digital Ocean
 
