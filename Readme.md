@@ -27,12 +27,12 @@ Quick personal configuration for setting up a fresh Dokku build. I've only tried
 
 #### III. Running Boot
 
-**IMPORTANT:** Before running this please inspect the `index.sh` file. You may want to fork and modify to suit your own setup. For a list of plugins you can add, check this out: http://dokku.viewdocs.io/dokku/plugins/
-
 ```sh
 ssh root@<IP_ADDRESS>
 curl -sSL https://raw.githubusercontent.com/matthewmueller/dokku-boot/master/index.sh | bash /dev/stdin
 ```
+
+**IMPORTANT:** Before running this please inspect the `index.sh` file. You may want to fork and modify to suit your own setup. For a list of plugins you can add, check this out: http://dokku.viewdocs.io/dokku/plugins/
 
 This whole process takes about 5 minutes and you'll basically have a Heroku running on your droplet. Dokku is amazing.
 
