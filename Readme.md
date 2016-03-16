@@ -34,6 +34,22 @@ curl -sSL https://raw.githubusercontent.com/matthewmueller/dokku-boot/master/ind
 
 **IMPORTANT:** Before running this please inspect the [index.sh](/index.sh) file. You may want to fork and modify to suit your own setup. For a list of plugins you can add, check this out: http://dokku.viewdocs.io/dokku/plugins/
 
+#### IV. All Set!
+
+You can log out of your droplet and interact with dokku via ssh.
+
+```sh
+ssh dokku@<IP_ADDRESS> <command>
+```
+
+Or if you have the domain setup:
+
+```sh
+ssh dokku@<DOMAIN> <command>
+```
+
+---
+
 This whole process takes about 5 minutes and you'll basically have a Heroku running on your droplet. Dokku is amazing.
 
 ## TODO
