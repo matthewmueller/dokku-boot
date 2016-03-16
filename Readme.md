@@ -20,7 +20,7 @@ Quick personal configuration for setting up a fresh Dokku build. I've only tried
 
 #### II. Setting up Subdomains
 
-1. Open the IP Address created for in the browser
+1. Open the IP Address created for you in the browser (example using the terminal: `open http://192.243.249.116`)
 2. Choose the domain you'll be deploying to
 3. Select the **Use virtualhot naming for apps** option
 4. Click **Finish Setup**
